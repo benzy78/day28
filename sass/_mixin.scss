@@ -1,6 +1,5 @@
-/*
-    ミックスインの定義
-*/
+// ミックスインの定義
+
 
 @mixin sp {
     @media (max-width: 768px) {
@@ -14,3 +13,19 @@
         @content;
     }
  }
+
+ @mixin s-pc {
+    @media (max-width: 1200px) {
+        @content;
+    }
+ }
+
+ // float 解除
+@mixin clear {
+
+	&::after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
