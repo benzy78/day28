@@ -86,6 +86,7 @@
                 }
                 @include sp{
                     position: relative;
+                    top: 0;
                     left: 20px;
                     font-size: 14px;
                 }
@@ -145,6 +146,7 @@
             max-width: 505px;
             width: 100%;
             @include sp{
+                padding: 0 12px 6px;
                 font-size: 16px;
             }
         }
