@@ -1438,6 +1438,7 @@ input[type="radio"] + span {
 	font-size: 14px;
 	left: 20px;
 	position: relative;
+	top: 0;
 }
 
 .contact__body__label-02 {
@@ -1454,6 +1455,7 @@ input[type="radio"] + span {
 
 .contact__body__name {
 	font-size: 16px;
+	padding: 0 12px 6px;
 }
 
 .contact__body__radio {
