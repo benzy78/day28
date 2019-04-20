@@ -28,6 +28,7 @@
     &__content{
         background-color: $SubColor;
         height: auto;
+        transition: all 0.3s ease-in-out;
         max-width: 422px;
         width: 100%;
         @include sp{
@@ -35,7 +36,7 @@
         }
 
         &:hover{
-            opacity: 0.7;
+            box-shadow: 0 0 15px rgba(255,255,255,0.6);
         }
 
         &__img{
