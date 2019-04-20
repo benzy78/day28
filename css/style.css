@@ -215,7 +215,7 @@ input[type="radio"]:checked + span::after {
 	content: "";
 	display: block;
 	height: 6px;
-	left: 0.2em;
+	left: 0.13em;
 	opacity: 1;
 	position: absolute;
 	top: 50%;
