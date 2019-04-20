@@ -1307,6 +1307,10 @@ input[type="radio"] + span {
 	font-size: 16px;
 }
 
+input[type="radio"]:checked + span::after {
+	left: 0.2em;
+}
+
 .ttl-cmn {
 	font-size: 30px;
 }
