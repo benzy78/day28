@@ -1627,7 +1627,7 @@ input[type="radio"] + span {
 	height: 100%;
 	max-width: 300px;
 	overflow: auto;
-	padding-top: 197px;
+	padding-top: 97px;
 	position: fixed;
 	right: 0;
 	top: 0;
@@ -1648,6 +1648,10 @@ input[type="radio"] + span {
 	display: block;
 	position: relative;
 	text-align: center;
+}
+
+#header__nav__drawer #header__nav__content li a:hover::after {
+	width: 0;
 }
 
 #header__nav__drawer #header__nav__input:checked ~ #header__nav__close {
